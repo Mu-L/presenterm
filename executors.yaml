@@ -256,3 +256,8 @@ fsharp:
   commands:
     - ["dotnet", "fsi", "$pwd/snippet.fsx"]
   hidden_line_prefix: "/// "
+scala:
+  filename: Snippet.scala
+  commands:
+    - ["scala", "run", "$pwd/Snippet.scala"]
+  hidden_line_prefix: "/// "
